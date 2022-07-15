@@ -110,6 +110,41 @@
 }
 
 @media only screen and (max-width: 768px){
+    /* .home-banner{
+        transform:scale(1.5);
+    } */
 
-    
+    .academics-image{
+        display: none;
+    }
+
+    .courses-box{
+        width: 100%;
+        left: 0rem;
+        right: 0rem;
+        bottom: 0rem;
+        top: 0rem;
+        float: none;
+        padding-top: 1rem;
+    }
+
+    .academics-section{
+        margin-top: 2rem;
+        display: flexbox;
+        justify-content: center;
+    }
+
+    .admission-section{
+        margin-top: 2rem;
+    }
+
+    .contact-details-box{
+        display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+    .contact-address, .contact-emails{
+        width: 50%;
+    }
 }
