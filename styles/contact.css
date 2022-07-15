@@ -97,3 +97,19 @@
     background-color: rgb(181, 216, 247);
     color: rgb(12, 58, 128);
 }
+
+@media only screen and (max-width: 768px){
+    .contact-details-box{
+        display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+    .contact-address, .contact-emails{
+        width: 50%;
+    }
+
+    .query-form{
+        width: 90%;
+    }
+}
