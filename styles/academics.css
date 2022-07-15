@@ -2,6 +2,7 @@
 .flex-section{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 2rem;
     margin-bottom: 5rem;
 }
@@ -71,4 +72,24 @@ table, th, td {
 
 .faculty-designation{
     color: grey;
+}
+
+@media only screen and (max-width: 768px){
+    .academics-banner{
+        margin-top: 5rem;
+    }
+
+    .courses-box, .research-papers-section{
+        width: 90%;
+        margin: 0;
+    }
+
+    .courses-box{
+        margin-bottom: 2rem;
+    }
+
+    .grid-card{
+        width: 90%;
+        margin: 1rem;
+    }
 }
