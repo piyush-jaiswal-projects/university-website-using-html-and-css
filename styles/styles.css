@@ -64,6 +64,7 @@
 .admission-section{
     text-align: center;
     margin: auto;
+    margin-top: 2rem;
     position: relative;
 }
 
@@ -84,6 +85,7 @@
     padding: 2rem;
     margin: 1rem;
     padding-bottom: 0;
+    overflow: auto;
 }
 
 .address-title{

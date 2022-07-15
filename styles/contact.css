@@ -15,6 +15,7 @@
     padding: 2rem;
     margin: 1rem;
     padding-bottom: 0;
+    overflow: auto;
 }
 
 .address-title{

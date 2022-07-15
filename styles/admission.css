@@ -23,6 +23,7 @@ table, th, td {
     padding: 1rem;
     border-radius: 0.5rem;
     box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5);
+    overflow: auto;
   }
 
   .flex-section{
