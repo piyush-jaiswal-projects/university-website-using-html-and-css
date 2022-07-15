@@ -1,0 +1,77 @@
+.academics-banner{
+
+}
+
+.flex-section{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    margin-bottom: 5rem;
+}
+
+.courses-box{
+    width: 35%;
+    height: 80%;
+    margin: 6rem;
+    margin-left: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5);    line-height: 1.5rem;
+}
+
+.research-papers-section{
+    width: 40%;
+    height: 80%;
+    margin: 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5);
+    
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 1rem;
+  }
+  th, td {
+    background-color: #96D4D4;
+  }
+
+.faculty-grid, .awards-grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    margin: 2rem;
+    margin-top: 0;
+}
+
+.grid-card{
+    text-align: center;
+    justify-content: center;
+    margin: 3rem;
+    padding: 1rem;
+    width: 20%;
+    height: 60%;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5);    
+}
+
+.faculty-image{
+    width: 80%;
+    height: 80%;
+}
+
+.men{
+    width: 50%;
+    height: 50%;
+}
+
+.faculty-name, .faculty-designation, .faculty-info{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+.faculty-designation{
+    color: grey;
+}

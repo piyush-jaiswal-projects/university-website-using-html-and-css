@@ -1,0 +1,31 @@
+.admission-banner{
+    margin-top: 5rem;
+}
+
+
+.form-border{
+    border-top: 1px solid rgb(6, 74, 119);
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 1rem;
+  }
+  th, td {
+    background-color: #96D4D4;
+  }
+
+  .seat-matrix, .graduate-matrix    {
+    width: 40%;
+    height: 80%;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5);
+  }
+
+  .flex-section{
+      display: flex;
+      justify-content: center;
+  }

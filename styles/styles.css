@@ -1,0 +1,108 @@
+.academics-section{
+    margin-bottom: 0;
+}
+
+.academics-image{
+    display: inline-flex;
+    height: 40%;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 4rem;
+    left: 5rem;
+}
+
+.courses-box{
+    width: 35%;
+    height: 80%;
+    margin: 0;
+    padding: 1 rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5);
+    float: right;
+    position: relative;
+    right: 7rem;
+    top: 2rem;
+    line-height: 1.5rem;
+}
+
+.page-link-button{
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;   
+    font-size: 1.1rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    background-color: rgb(30, 98, 201);
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    width: 80%;
+}
+
+.nav-button{
+    padding: 1rem;
+    padding-top: 0rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.nav-button:hover{
+    color: rgb(20, 20, 73);
+}
+
+.list-text-decoration{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem  ;
+}
+
+.admission-section{
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+.contact-details-box{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-section{
+    text-align: center;
+}
+
+.contact-address, .contact-emails{
+    width: 20%;
+    background-color: rgb(232, 245, 250);
+    text-align: left;
+    float: left;
+    padding: 2rem;
+    margin: 1rem;
+    padding-bottom: 0;
+}
+
+.address-title{
+    text-align: left;
+}
+
+.contact-section-para{
+    color: grey;
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.location-image{
+    width: 4rem;
+    height: 4rem;
+}
+
+.contact-section-title{
+    position: relative;
+    right: 5rem;
+}
