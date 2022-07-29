@@ -68,6 +68,11 @@ body{
     margin: 0;
 }
 
+
+.color-change-red{
+    color: rgba(199, 13, 6, 0.897);
+}
+
 @media only screen and (max-width: 768px) and (min-width: 475px){
 .header-bar{
     display: flex;
@@ -84,6 +89,7 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
+
     
 }
 

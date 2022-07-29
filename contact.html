@@ -32,27 +32,27 @@
     <div class="flex-section">
     <div class="query-form">
         <h1 class="section-heading">Query Form</h1>
-        <form class="form">
+        <script src="./app.js"></script>
+        <form class="form" id="query-form" name="queryForm" onsubmit="return false">
             <label class="form-label">Fill in the details, and we will contact you as soon as possible</label>
-            <br></br>
-            <br></br>
+            <h3 class="form-label color-change-red" id="validationText"></h3>
                 <label class="form-label">Your name *</label>
                 <br></br>
-                <input class="form-input" type="text" name="Username"></input>
+                <input class="form-input" type="text" name="Username" id="userName" autocomplete="off"></input>
                 <br></br>
                 <label class="form-label">Your email id*</label>
                 <br></br>
-                <input class="form-input" type="email" name="Email"></input>
+                <input class="form-input" type="email" name="Email" id="userEmail" autocomplete="off"></input>
                 <br></br>
                 <label class="form-label">Contact number*</label>
                 <br></br>
-                <input class="form-input" type="text" name="Phone"></input>
+                <input class="form-input" type="text" name="Phone" id="userPhone" autocomplete="off"></input>
                 <br></br>
                 <label class="form-label">Please mention your query*</label>
                 <br></br>
-                <input class="form-input" type="text" name="Query/Question"></input>
+                <input class="form-input" type="text" name="Query" id="userQuery" autocomplete="off"></input>
                 <br></br>
-                <button type="submit" class="form-submit-button">Submit</button>
+                <button type="submit" class="form-submit-button" onclick="return formValidation();">Submit</button>
                 <br></br>
             </form>
     </div>

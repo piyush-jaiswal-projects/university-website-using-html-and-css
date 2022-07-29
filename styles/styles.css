@@ -39,7 +39,7 @@
     border: none;
     border-radius: 0.3rem;
     cursor: pointer;
-    width: 80%;
+    width: 35%;
 }
 
 .nav-button{
@@ -146,5 +146,9 @@
 
     .contact-address, .contact-emails{
         width: 50%;
+    }
+
+    .page-link-button{
+        width: 80%;
     }
 }
