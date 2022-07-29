@@ -115,5 +115,17 @@ body{
         font-size: 0.95rem;
         padding-top: 1rem;
     }
+
+    .ques{
+        font-size: 1rem;
+    }
+    
+    .faq-btn{
+        font-size: 0.9rem;
+    }
+
+    .question-div{
+        width: 100%;
+    }
         
     }

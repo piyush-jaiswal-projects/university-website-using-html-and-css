@@ -1,0 +1,36 @@
+.faq-section{
+    padding: 2rem;
+}
+
+.question-div{
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px 5px rgba(190, 187, 187, 0.5);
+    width: 80%;
+    margin: auto;
+    padding: auto;
+}
+
+.faq-btn{
+    border-radius: 2rem;
+    margin: 0rem;
+    font-size: 1.1rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    background-color: rgb(30, 98, 201);
+    border: none;
+    cursor: pointer;
+}
+
+.ans{
+    visibility: hidden;
+}
+
+.ques{  
+    padding: 1rem;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+    color: rgb(20, 20, 73);
+    font-weight: bold;
+}
