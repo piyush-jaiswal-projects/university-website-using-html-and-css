@@ -55,82 +55,61 @@ function faqDetails(num){
         targetAns = ans1;
         document.getElementById("ques2").innerText = ques2;
         document.getElementById("ques2").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques2").style.fontSize = "2rem";
         document.getElementById("ques3").innerText = ques3;
         document.getElementById("ques3").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques3").style.fontSize = "2rem";
         document.getElementById("ques4").innerText = ques4;
         document.getElementById("ques4").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques4").style.fontSize = "2rem";
         document.getElementById("ques5").innerText = ques5;
         document.getElementById("ques5").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques5").style.fontSize = "2rem";
     }
     else if(num ===2){
         targetId = "ques2";
         targetAns = ans2;
         document.getElementById("ques1").innerText = ques1;
         document.getElementById("ques1").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques1").style.fontSize = "2rem";
         document.getElementById("ques3").innerText = ques3;
         document.getElementById("ques3").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques3").style.fontSize = "2rem";
         document.getElementById("ques4").innerText = ques4;
         document.getElementById("ques4").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques4").style.fontSize = "2rem";
         document.getElementById("ques5").innerText = ques5;
         document.getElementById("ques5").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques5").style.fontSize = "2rem";
     }
     else if(num ===3){
         targetId = "ques3";
         targetAns = ans3;
         document.getElementById("ques2").innerText = ques2;
         document.getElementById("ques2").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques2").style.fontSize = "2rem";
         document.getElementById("ques1").innerText = ques1;
         document.getElementById("ques1").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques1").style.fontSize = "2rem";
         document.getElementById("ques4").innerText = ques4;
         document.getElementById("ques4").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques4").style.fontSize = "2rem";
         document.getElementById("ques5").innerText = ques5;
         document.getElementById("ques5").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques5").style.fontSize = "2rem";
     }
     else if(num ===4){
         targetId = "ques4";
         targetAns = ans4;
         document.getElementById("ques2").innerText = ques2;
         document.getElementById("ques2").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques2").style.fontSize = "2rem";
         document.getElementById("ques3").innerText = ques3;
         document.getElementById("ques3").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques3").style.fontSize = "2rem";
         document.getElementById("ques1").innerText = ques1;
         document.getElementById("ques1").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques1").style.fontSize = "2rem";
         document.getElementById("ques5").innerText = ques5;
         document.getElementById("ques5").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques5").style.fontSize = "2rem";
     }
     else if(num ===5){
         targetId = "ques5";
         targetAns = ans5;
         document.getElementById("ques2").innerText = ques2;
         document.getElementById("ques2").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques2").style.fontSize = "2rem";
         document.getElementById("ques3").innerText = ques3;
         document.getElementById("ques3").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques3").style.fontSize = "2rem";
         document.getElementById("ques4").innerText = ques4;
         document.getElementById("ques4").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques4").style.fontSize = "2rem";
         document.getElementById("ques1").innerText = ques1;
         document.getElementById("ques1").style.color = "rgb(20, 20, 73)";
-        document.getElementById("ques1").style.fontSize = "2rem";
     }
     document.getElementById(targetId).style.color = "black";
-    document.getElementById(targetId).style.fontSize = "1.5rem";
     document.getElementById(targetId).innerText = targetAns;
 }
