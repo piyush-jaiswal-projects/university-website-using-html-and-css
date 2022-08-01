@@ -21,11 +21,23 @@ function formValidation(){
     else{
         alert("Form submitted successfully");
     }
+
+}
+
+function createCookies(username, year){
+    var cookieInfo ="Username="+username+"Year="+year;
+    document.cookie = cookieInfo;
+    alert("Cookie is created");
+}
+
+function createLocalStorage(rollNo){
+    localStorage.setItem("Roll No.", rollNo);
+    alert("RollNo Stored Locally");
 }
 
 function faqDetails(num){
 
-    const ques1 = 'Are there age limitations to attend your university?';
+    const ques1 = 'Is there any age limitation to attend your university?';
     const ques2 = 'What is the academic calendar for your university?';
     const ques3 = 'What is the difference between online studies and distance studies?';
     const ques4 = 'What is the transfer application process?';

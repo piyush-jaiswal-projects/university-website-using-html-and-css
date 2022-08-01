@@ -45,7 +45,7 @@
             <br>
             <li class="list-item-decoration">B.Tech in Mechanical Engineering</li>
         </ul>
-        <button class="page-link-button"><a href="./academics.html" class="nav-button">Click to know more</a></button>
+        <button class="link-button"><a href="./academics.html" class="nav-button">Click to know more</a></button>
         </div>
     </div>
 
@@ -70,6 +70,45 @@
     <div class="review-section" id="review">
         <h1 class="section-heading">Reviews</h1>
         <!-- carousel of reviews -->
+        <div class="carousel-section">
+
+            <div class="reviewSlide">
+                <img src="./media/c1.jpg" style="width:100%">
+            </div>
+
+            <div class="reviewSlide">
+                <img src="./media/c2.jpg" style="width:100%">
+            </div>
+
+            <div class="reviewSlide">
+                <img src="./media/c3.jpg" style="width:100%">
+            </div>
+
+            <div class="reviewSlide">
+                <img src="./media/c4.jpg" style="width:100%">
+            </div>
+
+            <div class="reviewSlide">
+                <img src="./media/c5.jpg" style="width:100%">
+            </div>
+        </div>
+        <script>
+            let slideIndex = 0;
+
+function showReviewSlide() {
+  let i;
+  let slides = document.getElementsByClassName("reviewSlide");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showReviewSlide, 5000);
+}
+showReviewSlide();
+        </script>
+        <br>
     </div>
 
     <!-- Contact Section -->
